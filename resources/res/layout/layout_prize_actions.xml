@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:background="#fdebc1" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/layout_padding_normal" android:paddingEnd="@dimen/layout_padding_small" android:paddingVertical="3dp">
+    <LinearLayout android:background="@drawable/bg_action_group" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="12sp" android:textColor="@drawable/color_action_text" android:gravity="center" android:id="@+id/tv_action_full" android:background="@drawable/bg_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56dp" android:minHeight="24dp" android:text="@string/action_full"/>
+        <TextView android:textSize="12sp" android:textColor="@drawable/color_action_text" android:gravity="center" android:id="@+id/tv_action_3n" android:background="@drawable/bg_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56dp" android:minHeight="24dp" android:text="@string/action_3_number"/>
+        <TextView android:textSize="12sp" android:textColor="@drawable/color_action_text" android:gravity="center" android:id="@+id/tv_action_2n" android:background="@drawable/bg_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="56dp" android:minHeight="24dp" android:text="@string/action_2_number"/>
+    </LinearLayout>
+    <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+    <ImageButton android:id="@+id/ib_play_sound" android:background="?attr/selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_loudspeaker" android:contentDescription="@null"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="40dp" android:width="40dp" android:viewportWidth="40" android:viewportHeight="40">
+    <path android:fillColor="@drawable/$ic_ball_yellow__0" android:pathData="M20.0027,40.0053C31.0498,40.0053 40.0053,31.0498 40.0053,20.0027C40.0053,8.9555 31.0498,0 20.0027,0C8.9555,0 0,8.9555 0,20.0027C0,31.0498 8.9555,40.0053 20.0027,40.0053Z"/>
+    <group>
+        <clip-path android:pathData="M19.822,38.1946C30.2123,38.1946 38.6352,29.7716 38.6352,19.3814C38.6352,8.9911 30.2123,0.5682 19.822,0.5682C9.4318,0.5682 1.0088,8.9911 1.0088,19.3814C1.0088,29.7716 9.4318,38.1946 19.822,38.1946Z"/>
+        <path android:fillColor="@drawable/$ic_ball_yellow__1" android:pathData="M15.3353,4.7737C10.4607,5.6126 6.6269,9.4995 5.8835,14.406C8.5279,15.3564 11.0926,16.5193 13.6255,17.7512C14.8362,16.0096 16.2274,14.4113 17.7991,12.9935C16.9867,10.2536 16.3548,7.4499 15.3353,4.7737Z"/>
+        <path android:fillColor="@drawable/$ic_ball_yellow__2" android:pathData="M20.9479,5.1932C19.801,4.8108 18.5744,4.6037 17.3,4.6037C17.2044,4.6037 17.1088,4.6144 17.0186,4.6144C17.8628,6.9879 18.4416,9.4464 19.1425,11.8625C19.8063,11.3421 20.5072,10.8642 21.2294,10.4075C21.0913,8.6712 20.9798,6.9348 20.9479,5.1932Z"/>
+    </group>
+</vector>

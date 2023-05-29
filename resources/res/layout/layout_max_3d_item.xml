@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/bg_max_3d_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_padding_medium" android:layout_marginBottom="@dimen/layout_padding_medium" android:layout_marginVertical="@dimen/layout_padding_medium">
+    <LinearLayout android:padding="@dimen/layout_padding_small" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/max_3d_sub_text" android:id="@+id/tv_date" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/max_3d_sub_text" android:gravity="end" android:id="@+id/tv_period" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    </LinearLayout>
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/max_lot_divider"/>
+    <include android:id="@+id/prize_special" layout="@layout/layout_max_lot_row"/>
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/max_lot_divider"/>
+    <include android:id="@+id/prize_1" layout="@layout/layout_max_lot_row"/>
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/max_lot_divider"/>
+    <include android:id="@+id/prize_2" layout="@layout/layout_max_lot_row"/>
+    <View android:background="@color/white" android:layout_width="match_parent" android:layout_height="@dimen/max_lot_divider"/>
+    <include android:id="@+id/prize_3" layout="@layout/layout_max_lot_row"/>
+</LinearLayout>

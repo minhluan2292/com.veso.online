@@ -1,0 +1,17 @@
+package com.google.firebase.crashlytics.internal.send;
+
+import com.google.android.datatransport.Transformer;
+import com.google.firebase.crashlytics.internal.model.CrashlyticsReport;
+import java.nio.charset.Charset;
+
+/* compiled from: D8$$SyntheticClass */
+public final /* synthetic */ class DataTransportCrashlyticsReportSender$$ExternalSyntheticLambda0 implements Transformer {
+    public static final /* synthetic */ DataTransportCrashlyticsReportSender$$ExternalSyntheticLambda0 INSTANCE = new DataTransportCrashlyticsReportSender$$ExternalSyntheticLambda0();
+
+    private /* synthetic */ DataTransportCrashlyticsReportSender$$ExternalSyntheticLambda0() {
+    }
+
+    public final Object apply(Object obj) {
+        return DataTransportCrashlyticsReportSender.TRANSFORM.reportToJson((CrashlyticsReport) obj).getBytes(Charset.forName("UTF-8"));
+    }
+}

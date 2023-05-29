@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main_nav_graph" app:startDestination="@+id/menuFragment">
+    <fragment android:label="MenuFragment" android:name="com.veso.online.features.menu.MenuFragment" android:id="@+id/menuFragment">
+        <action android:id="@+id/action_menuFragment_to_slidableFragment" app:destination="@+id/slidableFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_menuFragment_to_xosoProvincePickerFragment" app:destination="@+id/provincePickerDes" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_menuFragment_to_xosoDatePickerFragment" app:destination="@+id/xosoDatePickerFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_menuFragment_to_megaLotteryListFragment" app:destination="@+id/megaLotteryListFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_menuFragment_to_xosoDienToanMBFragment" app:destination="@+id/xosoDienToanMBFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+        <action android:id="@+id/action_menuFragment_to_kenoResultListFragment" app:destination="@+id/kenoResultListFragment" app:enterAnim="@anim/slide_in_right" app:exitAnim="@anim/fade_out" app:popEnterAnim="@anim/fade_in" app:popExitAnim="@anim/fade_out"/>
+    </fragment>
+    <fragment android:label="SlidableFragment" android:name="com.veso.online.features.result.SlidableFragment" android:id="@+id/slidableFragment"/>
+    <fragment android:label="ProvincePickerFragment" android:name="com.veso.online.features.picker.ProvincePickerFragment" android:id="@+id/provincePickerDes"/>
+    <fragment android:label="XosoDatePickerFragment" android:name="com.veso.online.features.picker.XosoDatePickerFragment" android:id="@+id/xosoDatePickerFragment"/>
+    <fragment android:label="MegaLotteryListFragment" android:name="com.veso.online.features.mega.JackpotLotteryListFragment" android:id="@+id/megaLotteryListFragment"/>
+    <fragment android:label="XosoDienToanMBFragment" android:name="com.veso.online.features.dientoan.XosoDienToanMBFragment" android:id="@+id/xosoDienToanMBFragment"/>
+    <fragment android:label="KenoResultListFragment" android:name="com.veso.online.features.keno.list.KenoResultListFragment" android:id="@+id/kenoResultListFragment"/>
+</navigation>

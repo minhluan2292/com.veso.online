@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <LinearLayout android:gravity="center_vertical" android:background="@color/primary" android:paddingLeft="@dimen/layout_padding_small" android:paddingRight="@dimen/layout_padding_small" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/layout_padding_small">
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/select_date_and_region" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/ib_close" android:background="?attr/selectableItemBackgroundBorderless" android:padding="@dimen/layout_padding_tiny" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close_24" android:contentDescription="@null"/>
+    </LinearLayout>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_padding_normal" android:layout_marginTop="@dimen/dp_8" android:layout_marginRight="@dimen/layout_padding_normal" android:layout_marginBottom="@dimen/dp_8" android:layout_marginHorizontal="@dimen/layout_padding_normal" android:layout_marginVertical="@dimen/dp_8" layout="@layout/layout_ads_banner"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rcv_date_picker" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <View android:background="@color/divider" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

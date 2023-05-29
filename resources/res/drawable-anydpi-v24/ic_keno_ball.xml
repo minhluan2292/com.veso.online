@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="37dp" android:width="37dp" android:viewportWidth="37" android:viewportHeight="37">
+    <path android:fillColor="@drawable/$ic_keno_ball__0" android:pathData="M18.0024,36.0048C27.9448,36.0048 36.0048,27.9448 36.0048,18.0024C36.0048,8.0599 27.9448,0 18.0024,0C8.0599,0 0,8.0599 0,18.0024C0,27.9448 8.0599,36.0048 18.0024,36.0048Z"/>
+    <group>
+        <clip-path android:pathData="M17.8399,34.3752C27.1911,34.3752 34.7718,26.7945 34.7718,17.4433C34.7718,8.092 27.1911,0.5114 17.8399,0.5114C8.4886,0.5114 0.908,8.092 0.908,17.4433C0.908,26.7945 8.4886,34.3752 17.8399,34.3752Z"/>
+        <path android:fillColor="@drawable/$ic_keno_ball__1" android:pathData="M13.8017,4.2963C9.4146,5.0514 5.9642,8.5496 5.2952,12.9654C7.6751,13.8208 9.9833,14.8674 12.2629,15.9761C13.3525,14.4086 14.6046,12.9701 16.0192,11.6941C15.288,9.2282 14.7193,6.7049 13.8017,4.2963Z"/>
+        <path android:fillColor="@drawable/$ic_keno_ball__2" android:pathData="M18.8531,4.6738C17.8208,4.3298 16.7169,4.1434 15.5699,4.1434C15.4839,4.1434 15.3979,4.1529 15.3167,4.1529C16.0765,6.2891 16.5974,8.5018 17.2282,10.6762C17.8256,10.2079 18.4564,9.7778 19.1064,9.3668C18.9821,7.8041 18.8818,6.2413 18.8531,4.6738Z"/>
+    </group>
+</vector>
